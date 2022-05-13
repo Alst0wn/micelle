@@ -1,0 +1,42 @@
+=========================================
+SLURM_JOB_ID = 36662
+SLURM_JOB_NODELIST = node20-37
+SLURM_CPUS_ON_NODE = 4
+SLURM_JOB_PARTITION = RT
+SLURM_TASK_PID = 418540
+==========================================
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[node20-37:418575] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[node20-37:418577] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[node20-37:418573] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+[node20-37:418579] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+LAMMPS (29 Sep 2021 - Update 2)
+Lattice spacing in x,y,z = 1.1326962 1.9618873 1.1326962
+Created orthogonal box = (0.0000000 0.0000000 -0.28317404) to (22.653923 19.618873 0.28317404)
+  2 by 2 by 1 MPI processor grid
+Created 420 atoms
+  using lattice units in orthogonal box = (0.0000000 -0.0019618873 -0.28317404) to (22.653923 19.620835 0.28317404)
+  create_atoms CPU = 0.000 seconds
+60 atoms in group lower
+360 atoms in group mobile
+Setting atom values ...
+  60 settings made for type
+WARNING: Temperature for thermo pressure is not for group all (../thermo.cpp:482)
+ERROR: Invalid fix ave/time command (../fix_ave_time.cpp:105)
+Last command: fix		rdf all ave/time 50 1 50 c_my_RDF[*] file tmp_1.3.rdf mode vector
+srun: error: node20-37: tasks 0-3: Exited with exit code 1

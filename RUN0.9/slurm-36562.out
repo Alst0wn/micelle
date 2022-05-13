@@ -1,0 +1,42 @@
+=========================================
+SLURM_JOB_ID = 36562
+SLURM_JOB_NODELIST = node20-37
+SLURM_CPUS_ON_NODE = 4
+SLURM_JOB_PARTITION = RT
+SLURM_TASK_PID = 415873
+==========================================
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[node20-37:415890] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[node20-37:415891] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[node20-37:415889] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+[node20-37:415892] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+ERROR on proc 0: Cannot open input script in.micelle: No such file or directory (../lammps.cpp:520)
+Last command: (unknown)
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+In: PMI_Abort(1, N/A)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 36562.0 ON node20-37 CANCELLED AT 2022-05-13T07:49:27 ***
+srun: error: node20-37: task 0: Exited with exit code 1
+srun: error: node20-37: tasks 1-3: Killed

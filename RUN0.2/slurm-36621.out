@@ -1,0 +1,29 @@
+=========================================
+SLURM_JOB_ID = 36621
+SLURM_JOB_NODELIST = node20-37
+SLURM_CPUS_ON_NODE = 4
+SLURM_JOB_PARTITION = RT
+SLURM_TASK_PID = 417160
+==========================================
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[node20-37:417210] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[node20-37:417212] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[LOG_CAT_ML] You must specify a valid HCA device by setting:
+-x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
+If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
+In case of unfounded HCA device please contact your system administrator.
+[node20-37:417208] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+[node20-37:417213] Error: coll_hcoll_module.c:301 - mca_coll_hcoll_comm_query() Hcol library init failed
+LAMMPS (29 Sep 2021 - Update 2)
+Total wall time: 0:00:00
